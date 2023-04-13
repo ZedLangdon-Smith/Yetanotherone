@@ -36,3 +36,5 @@ jobs:
           echo test, and deploy your project.
       - name: Run list content of working directory
         run: ls -al
+      - name: new script
+        run: bash ./Script.sh
